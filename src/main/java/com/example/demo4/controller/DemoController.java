@@ -8,7 +8,7 @@ public class DemoController {
 	
 	@GetMapping("/")
 	public String checkDisplay() {
-		return "<h1>"+"Display is working in Demo Controller"+"</h1>";
+		return "<h2>"+"Display is working in Demo Controller"+"</h2>";
 		
 	}
 
